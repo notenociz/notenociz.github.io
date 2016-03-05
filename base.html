@@ -19,20 +19,20 @@
   <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-  <link rel="stylesheet" href="css/style.less">
+  <link rel="stylesheet/less" href="css/style.less">
 
 </head>
 <body>
 <script>
   less = {
     env: "development",
-    async: false,
-    fileAsync: false,
+    async: true,
+    fileAsync: true,
     poll: 1000,
     functions: {},
     dumpLineNumbers: "comments",
-    relativeUrls: true,
-    rootpath: ""
+    relativeUrls: false,
+    rootpath: ":/a.com"
   };
 </script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
